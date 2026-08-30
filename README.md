@@ -16,4 +16,5 @@ This repository contains my solutions to HackerRank SQL problems.
 All solutions are written in MySQL / Standard SQL.
 
 ## 🚀 Profile
-HackerRank: https://www.hackerrank.com/your_profile
+HackerRank: https://www.hackerrank.com/beniwalmahesh74
+
