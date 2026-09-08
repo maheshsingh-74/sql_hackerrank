@@ -1,0 +1,9 @@
+SELECT
+CASE
+    WHEN G.Grade < 8 THEN NULL ELSE S.Name
+END
+, G.Grade, S.Marks
+FROM STUDENTS S
+INNER JOIN GRADES G
+ON S.Marks BETWEEN G.Min_Mark AND G.Max_Mark
+ORDER BY G.Grade DESC, S.Name,S.Marks;
